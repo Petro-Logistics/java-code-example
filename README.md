@@ -20,3 +20,5 @@ Query name: Nigeria_Oct_2016_p30
 
 
 Can test with testapi.html to verify.
+
+For reference see api_json.php (existing code example)
