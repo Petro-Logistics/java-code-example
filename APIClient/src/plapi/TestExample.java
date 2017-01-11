@@ -1,4 +1,4 @@
-package me.tadej.gasparovic.plapi;
+package plapi;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
