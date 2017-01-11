@@ -5,7 +5,7 @@ Java APIClient
 --------------
 This project is a Java API for communicating, retrieving and show data with existing testing resource [Petro Logistics API](https://secure.petro-logistics.com/api/v2/movementsdata).
 
-Javadoc and source JARs are available as well on this branch on **APIClient - bin**
+Javadoc and source JARs are available as well on this branch on **APIClient - bin** folder.
 
 
 Parameters
@@ -26,7 +26,7 @@ Data can be transferred in two formats: xml or json
 
 - CSV with Parameters.
 
-Binary value that indicates to APIClient If CSV is desired with Parameters
+Binary value that indicates to APIClient If CSV is desired with Parameters.
 
 - Query Name.
 
@@ -55,6 +55,8 @@ APIClient requires the following jars:
 - commons-io-2.5.jar
 - json-20160810.jar
 
+These jars can be found on **APIClient - bin** folder.
+
 Example
 -------
-An example of how to test APIClient is available on **TestExample.java**.
+An example of how to test APIClient is available on **TestExample.java** located [here](https://tracker.petro-logistics.com:8888/root/petro-api-java-example/tree/master/APIClient/src/plapi)
