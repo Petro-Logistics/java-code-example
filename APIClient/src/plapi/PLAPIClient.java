@@ -1,4 +1,4 @@
-package me.tadej.gasparovic.plapi;
+package plapi;
 
 import java.io.IOException;
 import java.io.StringReader;
@@ -18,7 +18,7 @@ import org.apache.commons.io.IOUtils;
 import org.json.JSONObject;
 
 /**
- * @author Tadej Gašparoviè
+ * @author Tadej Gasparovic
  * @version 1.0
  * **/
 public class PLAPIClient {
