@@ -12,34 +12,16 @@ Parameters
 ----------
 **PLAPIClient** is initialized with 5 parameters:
 
-String API_URL String API_USER, String API_PASSWORD, String API_KEY, String API_HASH
-
 - API_URL
-
-API endpoint URL
-
 - API_USER
-
-HTTP User *required*
-
 - API_PASSWORD
-
-HTTP Password *required*
-
 - API_KEY
-
-API Key *required*
-
 - API_HASH
-
-Api Hash *required* 
 
 
 **PLAPIClient** is called with 1 parameter:
 
 - query_name
-
-Unique name provided by Petro-Logistics to indicate data to be consumed
 
 
 Usage
