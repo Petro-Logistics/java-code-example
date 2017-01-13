@@ -3,9 +3,7 @@ README
 
 Java APIClient 
 --------------
-This project is a Java API client for communicating, retrieving and show data with [Petro Logistics API](https://secure.petro-logistics.com/client/api).
-
-Javadoc and source JARs are available as well on this branch in **APIClient - bin** folder.
+This project is a Java API client for retrieving data with [Petro Logistics API](https://secure.petro-logistics.com/client/api).
 
 
 Parameters
@@ -34,21 +32,20 @@ Usage
 
 ### Execute Example
 
-    JSONObject obj = client.execute("Nigeria_Oct_2016_p30");
+    JSONObject obj = client.execute("xyz_query");
 
 Example
 -------
-An example of how to test APIClient is available on **TestExample.java** located [here](https://tracker.petro-logistics.com:8888/root/petro-api-java-example/tree/master/APIClient/src/plapi)
+An example of how to test/use PLAPIClient is available in **TestExample.java** located [here](https://tracker.petro-logistics.com:8888/root/petro-api-java-example/tree/master/APIClient/src/plapi)
 
 Dependencies
 ------------
-APIClient requires the following jars:
+APIClient requires the following jars (included):
 
 - commons-io-2.5-javadoc.jar
 - commons-io-2.5.jar
 - json-20160810.jar
 
-These jars can be found on **APIClient - bin** folder.
 
 Java Doc
 --------
