@@ -87,8 +87,8 @@ JSONObject obj = client.execute("query_name");
 
 
 ## Example
-An example of how to test/use PLAPIClient is available in **TestExample.java** located [here](https://github.com/Petro-Logistics/petro-api-java-example)
+An example of how to test/use PLAPIClient is available in **TestExample.java** located [here](https://github.com/Petro-Logistics/petro-api-java-example/blob/master/APIClient/src/plapi/TestExample.java)
 
 
 ## Java Doc
-Java Docs can be found [here](https://github.com/Petro-Logistics/petro-api-java-example)
+Java Docs can be found [here](https://github.com/Petro-Logistics/petro-api-java-example/tree/master/APIClient/doc)
