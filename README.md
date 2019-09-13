@@ -1,4 +1,4 @@
-### README
+# README
 ---
 
 ## Java API Client
