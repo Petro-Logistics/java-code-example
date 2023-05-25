@@ -17,7 +17,7 @@ public class TestExample {
 			System.out.println("Creating a PLAPIClient object...");
 			
 			/* Initializing a new PLAPIClient object */
-			PLAPIClient client = new PLAPIClient("https://secure.petro-logistics.com/api/v2/aggregatemovementsdata", "testuser_http_CuH68Omfx17R", "X9PV5EmJPr88lEyjD2I2IE26b9ElQCX0", "37rspm6j39td23nh0o2v0h78", "P0iwW39qaMvTjFRdcmsiKmD9OxGEquHNXapwbSQr8gbuV2ssqjbt0Vy7Yelyi4C1");
+			PLAPIClient client = new PLAPIClient("https://secure.petro-logistics.com/api/v3/aggregatemovementsdata", "testuser_http_kRQNk5878ezA", "F268DBvvPCBV83eT1vIeTpBGrJD604K2", "37rspm6j39td23nh0o2v0h78", "d1Npusz7BrVDauza7b7v5swgV20uiXQwiCG6nxiPseWRda6mTfJBeByKZsvp5sNX");
 			
 			System.out.println("Executing the query...");
 			
