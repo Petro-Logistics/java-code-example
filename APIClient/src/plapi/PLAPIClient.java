@@ -12,6 +12,7 @@ import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URI;
 import java.net.URLConnection;
 import java.net.URLEncoder;
 import java.nio.charset.Charset;
@@ -42,7 +43,7 @@ public class PLAPIClient {
 	private String API_PASSWORD;
 	
 	public PLAPIClient(String API_URL, String API_USER, String API_PASSWORD, String API_KEY, String API_HASH) throws MalformedURLException{
-		this.API_URL = new URL(API_URL);
+		this.API_URL = URI.create(API_URL).toURL();
 		this.API_USER = API_USER;
 		this.API_PASSWORD = API_PASSWORD;
 		this.API_KEY = API_KEY;
