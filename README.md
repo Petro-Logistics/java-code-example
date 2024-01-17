@@ -69,7 +69,7 @@ This module is a Java API client (with an example) for retrieving data with the 
 ## Usage
 - ### Initialization Example
     ```java
-    PLAPIClient client = new PLAPIClient("https://secure.petro-logistics.com/api/v3/desired_report_type", "your_api_key", "your_api_hash", "your_http_user", "your_http_password");
+    PLAPIClient client = new PLAPIClient("https://secure.petro-logistics.com/api/v4/desired_report_type", "your_api_key", "your_api_hash", "your_http_user", "your_http_password");
     ```
 
 - ### Execute Example

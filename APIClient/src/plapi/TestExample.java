@@ -1,4 +1,4 @@
-// Copyright (c) 2023 Petro-Logistics S.A., All rights reserved.
+// Copyright (c) 2024 Petro-Logistics S.A., All rights reserved.
 
 // This work is licensed under the terms of the MIT license.  
 // For a copy, see <https://opensource.org/licenses/MIT>.
@@ -17,7 +17,7 @@ public class TestExample {
 			System.out.println("Creating a PLAPIClient object...");
 			
 			/* Initializing a new PLAPIClient object */
-			PLAPIClient client = new PLAPIClient("https://secure.petro-logistics.com/api/v3/aggregatemovementsdata", "testuser_http_kRQNk5878ezA", "F268DBvvPCBV83eT1vIeTpBGrJD604K2", "37rspm6j39td23nh0o2v0h78", "d1Npusz7BrVDauza7b7v5swgV20uiXQwiCG6nxiPseWRda6mTfJBeByKZsvp5sNX");
+			PLAPIClient client = new PLAPIClient("https://secure.petro-logistics.com/api/v4/aggregatemovementsdata", "testuser_http_kRQNk5878ezA", "F268DBvvPCBV83eT1vIeTpBGrJD604K2", "37rspm6j39td23nh0o2v0h78", "d1Npusz7BrVDauza7b7v5swgV20uiXQwiCG6nxiPseWRda6mTfJBeByKZsvp5sNX");
 			
 			System.out.println("Executing the query...");
 			
